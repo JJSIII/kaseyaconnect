@@ -1513,25 +1513,14 @@ aside .block-grid:last-child {
 	margin-bottom: 18px;
 	font-weight: 400;
 	background-color: #0072bc;
-	background-repeat: repeat-x;
-	background-image: -moz-linear-gradient(top, #049cdb, #0072bc);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0072bc));
-	background-image: -webkit-linear-gradient(top, #049cdb, #0072bc);
-	background-image: linear-gradient(top, #049cdb, #0072bc);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb', endColorstr='#0072bc', GradientType=0);
 	background-repeat: no-repeat;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	border: 1px solid #0072bc;
-	border-right: 1px solid rgba(255,255,255,.1);
-	border-left: 1px solid rgba(0,0,0,.1);
-	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 0 rgba(255,255,255,1);
 	-moz-transition: all .3s ease-in-out 0s;
 	-webkit-transition: all .3s ease-in-out 0s;
 	transition: all .3s ease-in-out 0s;
 	border-radius: 6px;
 }
 .btn:hover {
-	background-position: 0 -20px;
+	background-color: #005c9e;
 }
 .btn.green {
 	background-color: #8ac640;
