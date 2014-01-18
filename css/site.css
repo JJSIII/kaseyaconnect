@@ -9,7 +9,7 @@
   height: 100%;
   width: 100%;
   zoom: 1;
-  overlay: hidden;
+  overflow: hidden;
 }
 .fr-overlay-background {
   background: #000;
@@ -177,7 +177,7 @@
 .fr-ui-wrapper-outside {
   float: left;
   height: 100%;
-  width: 100%:
+  width: 100%;
 }
 
 /* outer-border */
