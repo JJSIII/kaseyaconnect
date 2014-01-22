@@ -9,7 +9,7 @@
   height: 100%;
   width: 100%;
   zoom: 1;
-  overlay: hidden;
+  overflow: hidden;
 }
 .fr-overlay-background {
   background: #000;
@@ -177,7 +177,7 @@
 .fr-ui-wrapper-outside {
   float: left;
   height: 100%;
-  width: 100%:
+  width: 100%;
 }
 
 /* outer-border */
@@ -1274,7 +1274,6 @@ p {
 h1 {
 	font-size: 20px;
 	font-weight: 300;
-	text-transform: capitalize;
 	color: #0062bc;
 	text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
@@ -1756,11 +1755,8 @@ header nav.global li {
 	}
 	header nav.global {
 		display: inline;
+    float: right;
 		vertical-align: bottom;
-		float: right;
-	}
-	header nav.global ul {
-		padding-top: ;
 	}
 	header .social-icons {
 		display: block;
@@ -1992,7 +1988,7 @@ footer .social-icons {
 	border-bottom: 1px solid #eee;
 	margin-bottom: 6px;
 	padding-bottom: 6px;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .agenda span {
 	line-height: 1.3em;
