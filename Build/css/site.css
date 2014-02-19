@@ -3812,10 +3812,16 @@ aside .block-grid:last-child {
     margin-bottom: 0
 }
 #packages table:after {
-    content: url(/img/opening-soon-badge.png);
+
+    background-image: url(/img/opening-soon-badge.png);
+    background-size: 97px 100px;
+    content: '';
+    display: block;
     position: absolute;
     right: -30px;
     top: -80px;
+    height: 100px;
+    width: 97px;
 }
 #packages td .green.radius, #packages td .white.radius {
     font-size: 16px;
@@ -4600,6 +4606,10 @@ footer .social-icons {
 .sponsors .sponsor img {
     float: right;
     padding-left: 20px;
+    width: 120px;
+}
+.eight .sponsors h3 {
+    color: #999;
 }
 .four-oh-four {
     text-align: center
