@@ -3740,6 +3740,9 @@ ul.social-icons li a {
     opacity: .75;
     transition: all .3s ease-in-out 0s;
 }
+ul.social-icons li img {
+    width: 40px;
+}
 ul.social-icons li a:hover {
     opacity: 1
 }
@@ -4164,6 +4167,9 @@ footer .legal p {
 footer .social-icons {
     margin: 20px auto
 }
+footer .logo {
+    width: 100px;
+}
 @media only screen and (min-width: 768px) { 
   footer .legal p {
       display: block
@@ -4273,6 +4279,9 @@ footer .social-icons {
 .show-highlights .six.columns {
     overflow: hidden;
     padding-bottom: 20px;
+}
+.show-highlights .icon {
+    width: 48px;
 }
 .speakers ul, .speakers li {
     margin-bottom: 0
