@@ -1435,7 +1435,7 @@ form.custom.nice div.custom.dropdown ul {
     border-bottom-right-radius: 2px;
 }
 #caseStudies {
-    background: #fff url(libs/fresco/skins/loading.gif) no-repeat center center;
+    background: #fff url(old/img/orbit/loading.gif) no-repeat center center;
     height: 210px;
     overflow: hidden;
     width: 1000px;
@@ -4792,4 +4792,8 @@ footer .logo {
       padding-left: 20px;
       border-left: 1px solid #ddd;
   }
+}
+
+.qtip-content {
+    line-height: 1.5em;
 }
