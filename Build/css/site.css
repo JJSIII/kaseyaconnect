@@ -4351,6 +4351,9 @@ a.tel {
 	margin-bottom: 6px;
 	text-transform: none;
 }
+.agenda p {
+	margin-bottom: 1em;
+}
 .agenda h3+p, .agenda h3+em {
 	border-top: 1px solid #eee;
 	display: block;
@@ -4371,14 +4374,11 @@ a.tel {
 	margin-right: 4px;
 }
 .agenda .location {
-	background-color: #8ac640;
-	border-radius: 100px;
-	color: #fff;
-	display: inline-block;
-	padding: 2px 8px;
+	color: #848d93;
+	font-weight: 700;
 }
 .agenda .location:before {
-	color: #fff;
+	color: #848d93;
 	content: "\f041";
 	font-family: "FontAwesome";
 	margin-right: 4px;
@@ -4392,7 +4392,7 @@ a.tel {
 	border: solid 1px #ddd;
 }
 .agenda th {
-	background-color: rgba(138,198,64,0.1);
+	background-color: #F5F5F5;
 	font-weight: 700;
 	padding: 2px 10px;
 	text-shadow: 0 1px #fff;
