@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
 	// table tooltips
 	//*************************************************************
 	$('td a[title]').qtip({

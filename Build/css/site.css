@@ -1440,7 +1440,7 @@ form.custom.nice div.custom.dropdown ul {
 	border-bottom-right-radius: 2px;
 }
 #caseStudies {
-	background: #fff url(old/img/orbit/loading.gif) no-repeat center center;
+	background: #fff url(libs/fresco/skins/loading.gif) no-repeat center center;
 	height: 210px;
 	overflow: hidden;
 	width: 1000px;
